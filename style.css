@@ -7,8 +7,9 @@ body {
   justify-content: center;
   height: 100%;
   margin: 10px;
-  color: #531BDB;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Roboto, sans-serif;
+  color: #531bdb;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Roboto, sans-serif;
   font-weight: 300;
   font-size: 16px;
 }
@@ -19,7 +20,7 @@ p {
 }
 
 sup {
-  color: #531BDB;
+  color: #531bdb;
 }
 
 #container {
@@ -34,12 +35,12 @@ a {
   -webkit-transition: color 500ms;
   -o-transition: color 500ms;
   transition: color 500ms;
-  color: #EB5609;
+  color: #eb5609;
   text-decoration: none;
 }
 
 a:hover {
-  color: #F553AD;
+  color: #f553ad;
 }
 
 #links {
@@ -57,7 +58,7 @@ a:hover {
   transition-duration: 0.4s;
   cursor: pointer;
   background-color: white;
-  border: 3px solid #EB5609;
+  border: 3px solid #eb5609;
   color: black;
   font-weight: 300;
   font-size: 16px;
@@ -66,7 +67,7 @@ a:hover {
 }
 
 .link-button:hover {
-  border: 3px solid #F553AD;
+  border: 3px solid #f553ad;
   color: black;
 }
 
@@ -82,25 +83,36 @@ a:hover {
 
 h1.title {
   font-size: 48px;
+  font-weight: 575;
+  margin-bottom: 10px;
+}
+h2.subtitle {
+  font-size: 32px;
   font-weight: 500;
+  margin-top: 10px;
 }
 
-h2.author {
-  font-size: 18px;
+h3.author {
+  font-size: 16pt;
   font-weight: 300;
+  color: red;
 }
 
-h3 {
+h3.author1 {
+  margin-bottom: 10px;
+}
+
+h3.author2 {
+  margin-top: 10px;
+}
+
+h3 .section-title {
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.author {
-  font-size: 16pt;
-}
-
 .line {
-  border-bottom: 2px solid #F553AD;
+  border-bottom: 2px solid #f553ad;
   width: 100%;
 }
 
